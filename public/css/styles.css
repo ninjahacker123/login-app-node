@@ -1,0 +1,93 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.home {
+    color: rebeccapurple;
+    font-size: 200%;
+    margin-left: 2rem;
+}
+
+.login-box {
+    border-radius: 4px;
+    height: 25rem;
+    width: 40rem;
+    background-color: white;
+    position: fixed;
+    top: 10rem;
+    left: 21.5rem;
+    padding: 1.5rem;
+    border: 5px solid rgb(133, 67, 199);
+}
+
+
+.btn {
+    margin: 1rem;
+    position: absolute;
+    left: 2.9rem;
+    top: 14.8rem;
+    width: 32rem;
+}
+
+.about {
+    margin-right: 1.5rem;
+}
+
+.aboutHeading {
+    position: fixed;
+    top: 9rem;
+    left: 1.5rem;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.para {
+    font-size: 150%;
+}
+
+.heading {
+    font-size: 285%;
+}
+
+.monk {
+    position: fixed;
+    top: 11rem;
+    left: 23rem;
+    height: 20rem;
+    width: 35rem;
+    border-radius: 5px;
+    font-size: 350%;
+    text-align: center;
+    padding: 3.5rem;
+    background-color: white;
+}
+
+.day {
+    position: static;
+    margin-bottom: 3.9rem;
+}
+
+input {
+    display: block;
+    margin: 2rem;
+    width: 26rem;
+    height: 2;
+    border-radius: 4px;
+    border: 1.5px solid rebeccapurple;
+    padding: 0.5rem;
+}
+
+button {
+	transition: transform .2s
+}
+
+button:hover {
+	transform: scale(1.1)
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

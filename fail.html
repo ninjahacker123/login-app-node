@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fail</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Internal Styles -->
+    <style>
+        .first {
+            background-color: white;
+            color: black;
+        }
+
+        body {
+            background-color: rebeccapurple;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Jumbotron -->
+    <div class="jumbotron first">
+        <h1 class="display-4">Access Denied!</h1>
+        <p class="lead">Uh oh! Was somebody in a place they were'nt suppsed to be?</p>
+        <hr class="my-4">
+        <div class="lm">
+            <p>Try logging in again by clicking the button below.</p>
+            <!-- Form to Redirect back to login.ejs -->
+            <form action="/tryagain" method="POST">
+                <button class="btn btn-warning btn-lg" type="submit">Try Again</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
